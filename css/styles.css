@@ -1,6 +1,4 @@
-:root {
 
-}
 
 body {
     font-family: 'Roboto' sans-serif;
@@ -14,9 +12,6 @@ body {
     list-style: none;
 }
 
-.btn {
-    background-color: #2196F3;
-}
 /*--------HEADER--------*/
 
 header {
@@ -31,6 +26,11 @@ header {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #2196F3;
 }
 
 .header-mail {
@@ -58,14 +58,19 @@ header {
     color: #757575;
 }
 
+.header-tel:hover,
+.header-tel:focus {
+    color: #2196F3;
+}
 
-/*--------SOLUTIONS--------*/
 
-.solutions {
+/*--------MAIN-HERO--------*/
+
+.hero {
     background-color: aqua;
 }
 
-.solutions-title {
+.hero-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -77,7 +82,7 @@ header {
     color: #FFFFFF;
 }
 
-.solutions-btn {
+.hero-btn {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -85,6 +90,53 @@ header {
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    background: #2196F3;
+    cursor: pointer;
+}
+
+/*--------PORTFOLIO--------*/
+
+.header-title {
+    color: #ffffff;
+}
+
+.portfolio-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.portfolio-item-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-item-after-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 /*--------TEAM--------*/
