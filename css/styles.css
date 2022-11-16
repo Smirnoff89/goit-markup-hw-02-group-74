@@ -1,7 +1,14 @@
+: :root  {
+    --main-font: 'Roboto', sans-serif;
+
+}
+
 
 body {
-    font-family: 'Roboto';
-}
+    font-family: var(--main-font);
+        
+    }
+
 
 .link {
     text-decoration: none;
@@ -104,6 +111,76 @@ span.web {
     color: #FFFFFF;
     background: #2196F3;
     cursor: pointer;
+    
+}
+
+/*--------MAIN-ITEMS--------*/
+
+.items-pre-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.items-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*--------MAIN-OUR-WORK--------*/
+
+.our-work-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/*--------MAIN-TEAM--------*/
+
+.team-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-pre-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 /*--------PORTFOLIO--------*/
@@ -136,7 +213,7 @@ span.web {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
@@ -146,30 +223,10 @@ span.web {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
-/*--------TEAM--------*/
+/*--------FOOTER--------*/
 
-.team-pre-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-
-.team-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
