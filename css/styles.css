@@ -230,3 +230,38 @@ span.web {
 
 /*--------FOOTER--------*/
 
+.contacts {
+    background: #2F303A;;
+}
+
+.contacts-items {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-items:hover,
+.contacts-items:focus {
+    color: #ffffff;
+}
+
+.contacts-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;
+}
+
+span.web {
+    color: #2196F3
+}
+
+span.studio {
+    color: #ffffff;
+}
