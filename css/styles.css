@@ -1,22 +1,20 @@
-: :root  {
-    --main-font: 'Roboto', sans-serif;
-
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --title-fon-color: #F5F5F5;
+    --button-color: #F5F4FA;
 }
 
 
 body {
-    font-family: var(--main-font);
-        
+    font-family: Roboto, sans-serif;
+    background-color: var(--primary-white-color);
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.5;
     }
-
-
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-}
 
 /*--------HEADER--------*/
 
@@ -25,31 +23,29 @@ header {
 }
 
 .header-logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #212121;
-    text-decoration: none;
+    color: var(--primary-text-color);
 }
 
 span.web {
-    color: #2196F3
+    color: var(--accent-color);
 }
 
 .header-link {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .header-link:hover,
 .header-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .header-mail {
@@ -59,12 +55,12 @@ span.web {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--title-text-color);
 }
 
 .header-mail:hover,
 .header-mail:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .header-tel {
@@ -74,12 +70,12 @@ span.web {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--title-text-color);
 }
 
 .header-tel:hover,
 .header-tel:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 
@@ -90,31 +86,49 @@ span.web {
 }
 
 .hero-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 .hero-btn {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background: #2196F3;
-    cursor: pointer;
-    
+    color: var(--primary-white-color);
+    background: var(--accent-color);
+    cursor: pointer;   
+    border: transparent;
 }
 
 /*--------MAIN-ITEMS--------*/
+
+.invisible-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
 
 .items-pre-title {
     font-family: 'Roboto';
@@ -124,7 +138,7 @@ span.web {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .items-text {
@@ -134,98 +148,85 @@ span.web {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--title-text-color);
 }
 
 /*--------MAIN-OUR-WORK--------*/
 
 .our-work-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 /*--------MAIN-TEAM--------*/
 
 .team-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .team-pre-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .team-text {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--title-text-color);
 }
 
 /*--------PORTFOLIO--------*/
 
 .header-title {
-    color: #ffffff;
+    color: var(--primary-white-color);
 }
 
 .portfolio-btn {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--primary-text-color);
+    background-color: var(--button-color);
     cursor: pointer;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 .portfolio-item-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .portfolio-item-after-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--title-text-color);
 }
 
 /*--------FOOTER--------*/
@@ -246,22 +247,20 @@ span.web {
 
 .contacts-items:hover,
 .contacts-items:focus {
-    color: #ffffff;
+    color: var(--primary-white-color);
 }
 
 .contacts-logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #212121;
-    text-decoration: none;
 }
 
 span.web {
-    color: #2196F3
+    color: var(--accent-color);
 }
 
 span.studio {
-    color: #ffffff;
+    color: var(--primary-white-color);
 }
