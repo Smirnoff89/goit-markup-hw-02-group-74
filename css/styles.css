@@ -15,7 +15,7 @@ body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
     font-size: 14px;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     line-height: 1.71;
     }
 
@@ -156,6 +156,10 @@ ul {
 
 /*--------MAIN-TEAM--------*/
 
+.team {
+    background-color: var(--button-color);
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -223,6 +227,7 @@ ul {
 }
 
 .contacts-items {
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
 
